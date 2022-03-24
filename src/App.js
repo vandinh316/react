@@ -21,11 +21,11 @@ function App() {
         <main className="site-main">
           <div className="container">
             <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/about" element={<AboutPage />} />
-              <Route path="/todo" element={<TodoPage />} />
-              <Route path="/fetch" element={<FetchApi />} />
-              <Route path="/mp3" element={<Mp3 />} />
+              <Route path="./" element={<HomePage />} />
+              <Route path="./about" element={<AboutPage />} />
+              <Route path="./todo" element={<TodoPage />} />
+              <Route path="./fetch" element={<FetchApi />} />
+              <Route path="./mp3" element={<Mp3 />} />
             </Routes>
           </div>
         </main>

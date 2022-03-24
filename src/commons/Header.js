@@ -20,19 +20,19 @@ function Header() {
       <nav className="navbar">
         <ul className="nav">
           <li>
-            <CustomLink to="/">Home</CustomLink>
+            <CustomLink to="./">Home</CustomLink>
           </li>
           <li>
-            <CustomLink to="/about">About</CustomLink>
+            <CustomLink to="./about">About</CustomLink>
           </li>
           <li>
-            <CustomLink to="/todo">Todo</CustomLink>
+            <CustomLink to="./todo">Todo</CustomLink>
           </li>
           <li>
-            <CustomLink to="/fetch">Fetch API</CustomLink>
+            <CustomLink to="./fetch">Fetch API</CustomLink>
           </li>
           <li>
-            <CustomLink to="/mp3">MP3</CustomLink>
+            <CustomLink to="./mp3">MP3</CustomLink>
           </li>
         </ul>
       </nav>
