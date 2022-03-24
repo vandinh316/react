@@ -1,0 +1,6 @@
+.card-text,
+.card-title {
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
